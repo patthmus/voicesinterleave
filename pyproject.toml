@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "app"
+package-mode = false
 version = "0.1.0"
 description = ""
-authors = ["Patrice THIBAUD <patrice.thibaud@univ-lille.fr>"]
+authors = ["Telemann ISMIR 2025"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
