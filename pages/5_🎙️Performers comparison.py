@@ -94,7 +94,6 @@ def box_plot_show(x, options, colors, form, perfnames='all', metric='ioiratios')
     axs.set_ylabel(ylabel, fontsize=30)
     axs.tick_params(axis='y', labelsize=30) 
     form.pyplot(plt.gcf())
-    plt.savefig(f'{GRAPHS}/boxplotperformer{perfnames}.pdf', bbox_inches='tight')
 
 
 def performers_global_deltaioi():
