@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Patrice THIBAUD <patrice.thibaud@univ-lille.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+music21 = "^9.1.0"
+matplotlib = "^3.9.0"
+pytest = "^8.2.2"
+streamlit = "1.42.0"
+pandas = "^2.2.2"
+numpy = "^2.2.2"
+cmasher = "^1.9.2"
+seaborn = "^0.13.2"
+streamlit-pdf-viewer = "^0.0.21"
+scipy = "^1.15.2"
+verovio = "^5.1.0"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+pythonpath = [
+    "src"
+]
+testpaths = [
+    "tests"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
